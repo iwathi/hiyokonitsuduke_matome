@@ -109,7 +109,7 @@ export default {
       {
         label: 'スキル:',
         value: '',
-        hint: 'i.e. 保有スキル/資格/語学 (Python, Android, JS, MySQL, ネスペ, TOEIC880)'
+        hint: 'i.e. 保有スキル/資格/語学 (Python, JS, MySQL, Java, ネスペ, TOEIC880)'
       },
       {
         label: '契約形態:',
