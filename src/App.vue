@@ -1,33 +1,34 @@
 <template>
   <article id="app">
-    <Header/>
-    <router-view/>
-    <Footer/>
+    <v-app>
+      <main>
+        <v-container grid-list-xl text-xs-center>
+          <Top></Top>
+        </v-container>
+
+      </main>
+
+      <v-footer>
+        <div>
+          <p>Design by <a href="https://twitter.com/iwathi">@iwathi</a>.</p>
+        </div>
+      </v-footer>
+    </v-app>
   </article>
 </template>
 
 <script>
 
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
+import Top from '@/router/Top.vue'
 
 export default {
   components: {
-    Header,
-    Footer
+    Top
   }
 }
 </script>
 
 <style>
 body {
-  background-color: #292F33;
-  border: 1px solid white;
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: white;
-  border: 0, solid, #fff;
 }
 </style>
