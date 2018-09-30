@@ -207,4 +207,8 @@ export default {
   margin: 0 0 16px 16px;
 }
 
+h3 {
+  font-size: calc((100% + 0.25vw) * 2);
+}
+
 </style>

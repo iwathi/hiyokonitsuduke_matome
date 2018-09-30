@@ -4,7 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Vuetify from 'vuetify'
+import VueAnalytics from 'vue-analytics'
 import 'vuetify/dist/vuetify.min.css'
+
+Vue.use(VueAnalytics, {
+  id: 'UA-90357775-3'
+})
 
 Vue.use(Vuetify)
 
