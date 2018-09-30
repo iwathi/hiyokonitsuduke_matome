@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+> [github pages](https://iwathi.github.io/vue_test/dist/index.html)
+
 ## Build Setup
 
 ``` bash
