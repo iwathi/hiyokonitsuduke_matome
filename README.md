@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-> [github pages](https://iwathi.github.io/hiyokonitsuduke_matome/dist/index.html/)
+> [github pages](https://iwathi.github.io/hiyokonitsuduke_matome/dist/index.html#/)
 
 ## Build Setup
 
